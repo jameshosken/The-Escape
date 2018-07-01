@@ -8,7 +8,7 @@ public class Cursor : MonoBehaviour {
 
     private void Start()
     {
-        cameraRaycaster = GetComponent<CameraRaycaster>();
+        cameraRaycaster = GetComponentInChildren<CameraRaycaster>();
     }
 
     // Update is called once per frame

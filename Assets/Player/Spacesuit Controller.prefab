@@ -190,6 +190,7 @@ GameObject:
   - component: {fileID: 136452027671605530}
   - component: {fileID: 114338001422012598}
   - component: {fileID: 114647975657606216}
+  - component: {fileID: 114425563716702182}
   m_Layer: 0
   m_Name: Spacesuit Controller
   m_TagString: Player
@@ -659,6 +660,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 521b611700410be45810047f0a74e899, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114425563716702182
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1508648789579964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77fb53e5864c3734fa5a2b1e8574659c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkMovementStopRadius: 0.2
 --- !u!114 &114647975657606216
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -670,13 +683,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce7a80d520cacc042b5fe14f373d8173, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MovingTurnSpeed: 720
+  m_MovingTurnSpeed: 715.14
   m_StationaryTurnSpeed: 360
-  m_JumpPower: 6
+  m_JumpPower: 4
   m_GravityMultiplier: 1
   m_RunCycleLegOffset: 0.2
   m_MoveSpeedMultiplier: 1
-  m_AnimSpeedMultiplier: 0.75
+  m_AnimSpeedMultiplier: 1
   m_GroundCheckDistance: 0.3
 --- !u!136 &136452027671605530
 CapsuleCollider:
